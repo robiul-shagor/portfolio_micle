@@ -50,7 +50,7 @@ const Testimonials = () => {
                             <HiChevronLeft />
                         </div>      
                         
-                        <div className="app__flex" onClick={()=> hanndleClick( currentIndex === testimonials.length ? testimonials.length - 1 : currentIndex + 1 )}>
+                        <div className="app__flex" onClick={()=> hanndleClick( currentIndex === 0 ? testimonials.length - 1 : currentIndex - 1 )}>
                             <HiChevronRight />
                         </div>
                     </div>
